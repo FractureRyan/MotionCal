@@ -341,6 +341,7 @@ void MyFrame::OnSendCal(wxCommandEvent &event)
 	printf("   %7.2f   %6.3f %6.3f %6.3f\n",
 		magcal.V[2], magcal.invW[2][0], magcal.invW[2][1], magcal.invW[2][2]);
 	*/
+	printf("0,0,0,0,0,0,0,0,0,1");
 	m_confirm_icon->SetBitmap(MyBitmap("checkempty.png"));
 	send_calibration();
 }
