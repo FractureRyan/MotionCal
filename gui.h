@@ -28,7 +28,6 @@
 #define ID_CLEAR_BUTTON		10002
 #define ID_SENDCAL_BUTTON	10003
 #define ID_PORTLIST		10004
-#define ID_STARTCAL_BUTTON	10005
 
 class MyCanvas : public wxGLCanvas
 {
